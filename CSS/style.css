@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  height: 60px;
+  background-color: rgb(125, 10, 12);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin: 8px 20px;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav-bar li {
+  list-style: none;
+  color: #fff;
+  background-color: #4a070e;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.nav-bar li:hover {
+  background-color: #fff;
+  color: #4a070e;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.header {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 80vh;
+  height: 80vh;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.header-heading {
+  color: #fff;
+  letter-spacing: 1.3px;
+  position: absolute;
+  translate: 270px 120px;
+  font-size: 60px;
+
+}
+
+.header-link {
+  text-decoration: none;
+  color: #d2dddc;
+  background-color: #7d0a0c;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: #4a070e 1px solid;
+}
+
+/* .header-link:hover {
+  color: #7d0a0c;
+  background-color: #fff;
+  border-color: #888;
+  transition: .3s;
+
+} */
+
+.start-learning {
+  position: absolute;
+  translate: 0px 320px;
+}
+
+.view-more {
+  position: absolute;
+  translate: -145px 320px;
+}
+
+.t-img {
+  width: 40px;
+}
+
+.t-link {
+  text-decoration: none;
+  color: #d2dddc;
+  background-color: #7d0a0c;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: #4a070e 2px solid;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+table {
+  margin: 30px;
+  text-align: center;
+  width: 60%;
+  border: 2px solid #7d0a0c;
+  margin-bottom: 200px;
+}
+
+thead tr th {
+  background-color: #fff;
+
+}
+
+td,
+tr,
+th {
+  border: 2px solid #7d0a0c;
+  padding: 5px;
+}
+
+td {
+  color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #888;
+}
+
+tr:nth-child(even) {
+  background-color: #444;
+}
+
+.card {
+  margin-top: 50px;
+  background-color: #888;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #444;
+  border-radius: 5px;
+}
+
+.card-img {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  ;
+  margin-bottom: 30px;
+}
+
+.card p {
+  width: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.card a {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  background-color: #7d0a0c;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #4a070e;
+}
+
+.courses {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../images/back2.jpg);
+  height: 550px;
+  background-size: cover;
+}
+
+.second-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  width: 44%;
+  height: 400px;
+  background-color: #A8BAE3;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.second-card-img {
+  width: 30%;
+}
+
+.second-card a {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  background-color: #7d0a0c;
+  width: 40%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #4a070e;
+  border-radius: 5px;
+}
+
+.second-card p {
+  width: 90%;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.second {
+  display: flex;
+  justify-content: space-around;
+}
+
+.orange {
+  background-color: #E77B01;
+}
+
+a:hover {
+  color: #7d0a0c;
+  background-color: #fff;
+  border-color: #888;
+  transition: .3s;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  height: 100px;
+  font-size: x-large;
+  font-weight: 50;
+}
+
+.footer p {
+  white-space: 4px;
+}
